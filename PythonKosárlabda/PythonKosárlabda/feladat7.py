@@ -1,4 +1,5 @@
 def feladat7(lista):
+    print("7. feladat:")
     helyszinek = []
     for i in range(1, len(lista)):
         db = 0
@@ -17,5 +18,5 @@ def feladat7(lista):
             helyszinek.append(ideiglenes)
     for i in range(0, len(helyszinek)):
         if helyszinek[i][1] > 20:
-            print(str(helyszinek[i][0]) +":" + str(helyszinek[i][1]))
+            print("\t" + str(helyszinek[i][0]) +":" + str(helyszinek[i][1]))
             
